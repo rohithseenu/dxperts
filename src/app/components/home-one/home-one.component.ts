@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
 
 @Component({
-    selector: 'app-home-one',
-    templateUrl: './home-one.component.html',
-    styleUrls: ['./home-one.component.scss']
+    selector: 'app-home-two',
+    templateUrl: './home-two.component.html',
+    styleUrls: ['./home-two.component.scss']
 })
-export class HomeOneComponent implements OnInit {
+export class HomeTwoComponent implements OnInit {
 
     constructor(private viewportScroller: ViewportScroller) {}
 
